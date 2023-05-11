@@ -1,8 +1,8 @@
 @media only screen and (max-width: 480px){
-    body{
-        overflow: hidden;
-    }
-    
+  
+   .sticky{
+    height: 15vh;
+   }
     ul{
         visibility: hidden;
     }
@@ -19,4 +19,25 @@
     .email{
         margin: 0;
     }
+    .skill-section{
+        padding-top: 2rem;
+    }
+    .newslatter form input:first-child {
+        width: 76%;
+    }
+}  
+@media only screen and (max-width: 480px){
+   .header-section{
+    height: auto;
+}
+.newslatter form input:first-child {
+    width: 70%;
+}
+element.style {
+}
+.newslatter form input:last-child {
+    position: absolute;
+    top: 6px;
+    right: 101px;
+    display: inline-block;
 }
