@@ -7,7 +7,8 @@
         visibility: hidden;
     }
     .header-section{
-        height: auto;
+        width: 100%;
+        height: 85vh
     }
     .about-text{
         text-align: center;
@@ -25,6 +26,12 @@
     .newslatter form input:first-child {
         width: 76%;
     }
+    .newslatter form input:last-child {
+        position: absolute;
+        top: 6px;
+        right: 124px;
+        display: inline-block;
+    }
 }  
 @media only screen and (max-width: 480px){
    .header-section{
@@ -40,4 +47,5 @@ element.style {
     top: 6px;
     right: 101px;
     display: inline-block;
+}
 }
