@@ -1,0 +1,22 @@
+@media only screen and (max-width: 480px){
+    body{
+        overflow: hidden;
+    }
+    
+    ul{
+        visibility: hidden;
+    }
+    .header-section{
+        height: auto;
+    }
+    .about-text{
+        text-align: center;
+    }
+    .about-text p{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .email{
+        margin: 0;
+    }
+}
